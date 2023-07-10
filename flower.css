@@ -141,7 +141,8 @@
 .customer-offer-details {
     align-items: center;
 }
-.offer-img{
+
+.offer-img {
     margin-top: 100px;
     margin-right: 430px;
 }
@@ -159,8 +160,81 @@
     text-align: center;
     font-size: 18px;
 }
-.btn-primary1{
+
+.btn-primary1 {
     margin-left: 600px;
+    padding: 20px 43px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+
+.blog {
+    width: 1440px;
+    margin-top: 100px;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.blog-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.blog-title {
+    color: #272727;
+    font-size: 40px;
+}
+
+.blog-description {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+
+.customer-info {
+    margin-top: 100px;
+    width: 1440px;
+    height: 350px;
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    background-size: cover;
+}
+
+.customer-email {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.customer-info-title {
+    text-align: center;
+    padding-top: 100px;
+    color: #272727;
+    font-size: 40px;
+}
+
+.customer-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+
+.email-bar {
+    margin-left: 280px;
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    margin-top: 30px;
+}
+.btn-primary2{
     padding: 20px 43px;
     margin-top: 30px;
     border-radius: 8px;
