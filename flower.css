@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color:rgba(229, 84, 115, 0.10);;
 }
 
 .banner-img {
@@ -38,17 +39,14 @@
     background: #E55473;
     border: none;
 }
-
-.about {
-    height: auto;
-    align-items: center;
+.about{
+    height: 100vh;
 }
 
 .about-img {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    gap: 24px;
+ 
 }
 
 .about-title {
@@ -64,15 +62,34 @@
 }
 
 .sample-img1 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+    padding: 110px 75px 0px 75px;
+    margin-top: 45px;
+    background-image: url('./Flower Asset/pink.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .sample-img2 {
-    background-image: url('./Flower Asset/Rectangle\ 2.png');
+    padding: 110px 45px 50px 45px;
+    margin-top: 45px;
+    background-image: url('./Flower Asset/blue.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .sample-img3 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+    padding-top: 70px;
+    padding-right: 75px;
+    padding-left: 75px;
+    margin-top: 45px;
+    background-image: url('./Flower Asset/green.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.flower-name{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+  
 }
